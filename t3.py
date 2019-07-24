@@ -7,6 +7,7 @@ Created on Tue Jul 23 12:05:40 2019
 import pandas as pd
 from elasticsearch import Elasticsearch
 import numpy as np
+import os
 
 ## Connection to elasticsearch
 es = Elasticsearch(['ec2-3-19-110-7.us-east-2.compute.amazonaws.com:9200'])
